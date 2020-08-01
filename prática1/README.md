@@ -20,7 +20,7 @@
   - Predizer se um email é spam (1) ou não (0)
   - Predizer se um tumor é maligno (1) ou não (0)
   
-![myImage](https://thumbs.gfycat.com/ZealousBewitchedHapuka-size_restricted.gif)
+![myImage](https://www.analyticsvidhya.com/wp-content/uploads/2015/11/plot.png)
 
 ### KNN
 - É um algoritmo de classificação em que a classe de uma nova observação é definida com base nas K observações vizinhas.
