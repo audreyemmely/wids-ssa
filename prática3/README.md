@@ -32,3 +32,19 @@
 - Cada entrada é atribuída ao neurônio (cluster) mais próximo (similar)
 
 ![myImage](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/TrainSOM.gif/220px-TrainSOM.gif)
+
+### Rede ART (Adaptive Resonance Theory)
+- O principal parâmetro é o raio de similaridade mínima r0
+- A primeira entrada apresentada à rede é considerada como um neurônio
+- A segunda entrada é comparada com o neurônio já existente e com r0
+  - Se esta entrada for similar ao neurônio já existente, ela atualiza os pesos do mesmo
+  - Caso contrário, um novo neurônio é criado
+  
+_Observações_
+ - Não é preciso definir um número inicial de cluster
+ - A definição do raio de similaridade mínima pode ser complicada
+ - Custo de treinamento é elevado
+    - Regra delta, essencialmente sequencial
+    - Algumas maneiras de otimizar o processo
+
+![myImage](https://www.tutorialspoint.com/artificial_neural_network/images/supplement_unit.jpg)
