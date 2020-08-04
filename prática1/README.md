@@ -43,4 +43,14 @@
 - O objetivo do SVM (Máquina de Vetores de Suporte) é encontrar um hiperplano em um espaço N-dimensional (N é o número de variáveis) que maximiza a distância entre dados de diferentes classes.
 - Maximizar a margem de distância fornece mais segurança de que novas observações serão classificadas com mais confiança.
 
-![myImage](https://www.saedsayad.com/images/SVM_2.png)
+<img src="https://www.researchgate.net/publication/304611323/figure/fig8/AS:668377215406089@1536364954428/Classification-of-data-by-support-vector-machine-SVM.png" width = "420">
+
+### Árvores de decisão
+- É uma maneira de representar um algoritmo que contém apenas condicionais.
+- Possibilitam uma boa interpretação do algoritmo:
+  - Cada nó da árvore representa um “teste” em uma variável
+  - Cada ramo representa o resultado do teste
+  - Cada folha representa a classe de decisão
+- Para encontrar o melhor ponto de corte, utiliza-se o ganho de informação (quão pura a divisão torna o espaço) para cada um dos pontos de corte candidatos.
+
+<img src="https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1528907338/classification-tree_ygvats.png" width = "520">
